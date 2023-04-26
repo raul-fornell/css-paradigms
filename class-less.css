@@ -1,0 +1,53 @@
+:root {
+    --padding: 22px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #DFEBF5;
+    padding: 60px;
+}
+
+.column-with-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 260px;
+}
+
+.column-with-cards div {
+    background-color: #FFF;
+    padding: var(--padding);
+    border-radius: 17px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.column-with-cards h1 {
+    font-size: 36px;
+    margin: 0 0 30px 0;
+}
+
+.column-with-cards h2 {
+    font-size: 24px;  
+    margin: 0 0 10px 0;
+}
+
+.column-with-cards p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0
+}
+
+.column-with-cards img {
+    position: relative;
+    left: calc(-1 * var(--padding));
+    margin-bottom: -70px;
+    top: calc(-1 * var(--padding));
+    max-width: calc(100% + var(--padding) * 2);
+}
+
+.column-with-cards img + h1 {
+    z-index: 1;
+    position: relative;
+}
