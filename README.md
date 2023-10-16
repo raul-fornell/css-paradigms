@@ -24,7 +24,7 @@ The container for the card component is described in the class name.
 
 ## object-oriented-css
 
-A flexible way of writing styles. Each needed feature is described in a small and reusable class. The meaning of the class is not clear, but the style added and  combination of them creates many possible elements.
+A flexible way of writing styles. Each needed feature is described in a small and reusable class. The meaning of the class is not clear, but the style added and the combination of them creates many possible elements. An even smaller paradigm is Atomic CSS.
 
 The styles that define the card component.
 
